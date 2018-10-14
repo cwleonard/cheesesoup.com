@@ -1,0 +1,49 @@
+
+    body {
+        background-color: #FFFFCC;
+        font-family: Verdana, Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 6em;
+        font-family: 'Gorditas', cursive;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Gorditas', cursive;
+    }
+
+    div#recipeList {
+        margin: auto;
+        width: 50%;
+    }
+
+    div#recipeList p {
+        font-size: 1.5em;
+        font-family: 'Lato', sans-serif;
+    }    
+
+    li {
+        font-size: 12pt;
+    }
+    
+    a {
+        font-weight: bold;
+    }
+    
+    p.outdent {
+        margin-left: 1.5em;
+        text-indent: -1.5em;
+    }
+    
+    p.toggleLink {
+        margin-top: -10px;
+    }
+    
+    blockquote {
+        font-size: 10pt;
+    }    
+

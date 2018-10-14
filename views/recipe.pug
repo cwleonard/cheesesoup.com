@@ -1,0 +1,21 @@
+html
+  head
+    title Cheese Soup Recipe
+    link(rel="stylesheet",type="text/css",media="screen",href="/css/normal.css")
+    link(href="https://fonts.googleapis.com/css?family=Gorditas|Lato",rel="stylesheet")
+
+  body
+    h2= title
+
+    - if (ingredients.length > 0)
+      p Ingredients:
+    ul
+      each i in ingredients
+        li= ( i.amount ? i.amount : "" ) + " " + ( i.units ? i.units : "" ) + " " + i.ingredient
+
+    p
+      != recipeHtml
+
+    p= notes
+
+

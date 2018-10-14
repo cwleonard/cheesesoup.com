@@ -1,0 +1,14 @@
+html
+  head
+    title Cheese Soup Recipes
+    link(rel="stylesheet",type="text/css",media="screen",href="/css/normal.css")
+    link(href="https://fonts.googleapis.com/css?family=Gorditas|Lato",rel="stylesheet")
+    meta(name="google-site-verification",content="QO3Jjwxml3jonnbyx8pXus9uwGYdGIIcoznmhMqa7qQ")
+  body
+    h1 Cheese Soups
+    div#recipeList
+        each val in recipes
+            p
+                a(href='recipe/'+val.linkUrl)= val.recipeName
+
+
